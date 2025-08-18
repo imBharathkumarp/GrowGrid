@@ -1,8 +1,8 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4bd3f9ef-3941-4d92-b2ab-47fca4f74f3a/deploy-status)](https://app.netlify.com/projects/growgrid/deploys)
+
 # 🌱 GrowGrid – AI-Powered Academic Intelligence 🤖  
 
 Transforming static documents into **dynamic, interactive knowledge resources** powered by cutting-edge AI.  
-
-![GrowGrid Banner](https://via.placeholder.com/1200x400.png?text=GrowGrid+AI+Academic+Intelligence)  
 
 ---
 
