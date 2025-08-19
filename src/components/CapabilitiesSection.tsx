@@ -32,7 +32,7 @@ const CapabilitiesSection = () => {
       <div className="relative z-10 max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Key <span className="text-yellow-400">Capabilities</span>
+            Key <span className="text-green-600">Capabilities</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
             Discover how GrowGrid revolutionizes academic research and learning
@@ -46,13 +46,13 @@ const CapabilitiesSection = () => {
               <div className="h-full p-8 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-yellow-400/10">
                 {/* Icon */}
                 <div className="mb-6">
-                  <div className="w-16 h-16 rounded-2xl bg-yellow-400/20 flex items-center justify-center group-hover:bg-yellow-400/30 transition-colors duration-300">
-                    <capability.icon size={32} className="text-yellow-400" />
+                  <div className="w-16 h-16 rounded-2xl bg-green-600/20 flex items-center justify-center group-hover:bg-green-600/30 transition-colors duration-300">
+                    <capability.icon size={32} className="text-green-600" />
                   </div>
                 </div>
                 
                 {/* Content */}
-                <h3 className="text-xl font-bold text-white mb-4 group-hover:text-yellow-400 transition-colors duration-300">
+                <h3 className="text-xl font-bold text-white mb-4 group-hover:text-green-600 transition-colors duration-300">
                   {capability.title}
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
@@ -61,7 +61,7 @@ const CapabilitiesSection = () => {
               </div>
               
               {/* Glow effect on hover */}
-              <div className="absolute inset-0 rounded-2xl bg-yellow-400/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10 blur-xl"></div>
+              <div className="absolute inset-0 rounded-2xl bg-green-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10 blur-xl"></div>
             </div>
           ))}
         </div>

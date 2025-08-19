@@ -9,16 +9,16 @@ const AboutSection = () => {
       <div className="relative z-10 max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            About <span className="text-yellow-400">GrowGrid</span>
+            About <span className="text-green-600">GrowGrid</span>
           </h2>
-          <div className="w-24 h-1 bg-yellow-400 mx-auto mb-8 rounded-full"></div>
+          <div className="w-24 h-1 bg-green-600 mx-auto mb-8 rounded-full"></div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left column - Main content */}
           <div className="space-y-8">
             <div className="p-8 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20">
-              <h3 className="text-2xl font-bold text-yellow-400 mb-4">
+              <h3 className="text-2xl font-bold text-green-600 mb-4">
                 Revolutionizing Academic Intelligence
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
@@ -37,8 +37,8 @@ const AboutSection = () => {
           {/* Right column - Benefits */}
           <div className="space-y-6">
             <div className="flex items-start gap-4 p-6 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/15 transition-all duration-300">
-              <div className="w-12 h-12 rounded-lg bg-yellow-400/20 flex items-center justify-center flex-shrink-0">
-                <Users size={24} className="text-yellow-400" />
+              <div className="w-12 h-12 rounded-lg bg-green-600/20 flex items-center justify-center flex-shrink-0">
+                <Users size={24} className="text-green-600" />
               </div>
               <div>
                 <h4 className="text-lg font-bold text-white mb-2">For Students</h4>
@@ -47,8 +47,8 @@ const AboutSection = () => {
             </div>
 
             <div className="flex items-start gap-4 p-6 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/15 transition-all duration-300">
-              <div className="w-12 h-12 rounded-lg bg-yellow-400/20 flex items-center justify-center flex-shrink-0">
-                <Lightbulb size={24} className="text-yellow-400" />
+              <div className="w-12 h-12 rounded-lg bg-green-600/20 flex items-center justify-center flex-shrink-0">
+                <Lightbulb size={24} className="text-green-600" />
               </div>
               <div>
                 <h4 className="text-lg font-bold text-white mb-2">For Educators</h4>
@@ -57,8 +57,8 @@ const AboutSection = () => {
             </div>
 
             <div className="flex items-start gap-4 p-6 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/15 transition-all duration-300">
-              <div className="w-12 h-12 rounded-lg bg-yellow-400/20 flex items-center justify-center flex-shrink-0">
-                <Target size={24} className="text-yellow-400" />
+              <div className="w-12 h-12 rounded-lg bg-green-600/20 flex items-center justify-center flex-shrink-0">
+                <Target size={24} className="text-green-600" />
               </div>
               <div>
                 <h4 className="text-lg font-bold text-white mb-2">For Researchers</h4>
