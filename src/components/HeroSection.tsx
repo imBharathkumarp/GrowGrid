@@ -33,7 +33,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onExploreClick }) => {
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
           <span className="text-green-600">GrowGrid</span>
           <span className="block text-3xl md:text-4xl mt-2">AI-Powered Academic Intelligence</span>
-          <span className="text-4xl md:text-5xl block mt-4">🎓🤖</span>
+          <span className="text-4xl md:text-5xl block mt-4">🤖</span>
         </h1>
 
         {/* Tagline */}
@@ -49,10 +49,6 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onExploreClick }) => {
           Explore GrowGrid
           <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform duration-300" />
         </button>
-
-        {/* Floating elements for visual interest */}
-        <div className="absolute top-1/4 left-10 w-20 h-20 bg-white/5 backdrop-blur-sm rounded-lg rotate-12 border border-white/10"></div>
-        <div className="absolute bottom-1/4 right-10 w-16 h-16 bg-white/5 backdrop-blur-sm rounded-lg -rotate-12 border border-white/10"></div>
       </div>
     </section>
   );
