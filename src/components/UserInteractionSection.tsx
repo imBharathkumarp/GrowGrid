@@ -118,7 +118,7 @@ const UserInteractionSection: React.FC<UserInteractionSectionProps> = ({ onBackT
           {/* File Upload Section */}
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
-              <Upload className="text-yellow-400" size={28} />
+              <Upload className="text-green-600" size={28} />
               Upload Documents
             </h3>
             
@@ -126,7 +126,7 @@ const UserInteractionSection: React.FC<UserInteractionSectionProps> = ({ onBackT
             <div
               className={`relative p-8 rounded-2xl border-2 border-dashed transition-all duration-300 ${
                 dragActive 
-                  ? 'border-yellow-400 bg-yellow-400/10' 
+                  ? 'border-green-600 bg-green-600/10' 
                   : 'border-white/30 bg-white/10'
               } backdrop-blur-md hover:bg-white/15 cursor-pointer`}
               onDragEnter={handleDrag}
@@ -145,8 +145,8 @@ const UserInteractionSection: React.FC<UserInteractionSectionProps> = ({ onBackT
               />
               
               <div className="text-center">
-                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-yellow-400/20 flex items-center justify-center">
-                  <Upload size={32} className="text-yellow-400" />
+                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-green-600/20 flex items-center justify-center">
+                  <Upload size={32} className="text-green-600" />
                 </div>
                 <p className="text-white font-semibold mb-2">
                   Drop files here or click to browse
@@ -166,8 +166,8 @@ const UserInteractionSection: React.FC<UserInteractionSectionProps> = ({ onBackT
                   return (
                     <div key={file.id} className="p-4 rounded-xl bg-white/10 backdrop-blur-md border border-white/20">
                       <div className="flex items-start gap-3">
-                        <div className="w-10 h-10 rounded-lg bg-yellow-400/20 flex items-center justify-center flex-shrink-0">
-                          <FileIcon size={20} className="text-yellow-400" />
+                        <div className="w-10 h-10 rounded-lg bg-green-600/20 flex items-center justify-center flex-shrink-0">
+                          <FileIcon size={20} className="text-green-600" />
                         </div>
                         <div className="flex-1 min-w-0">
                           <div className="flex items-center justify-between mb-2">
@@ -184,7 +184,7 @@ const UserInteractionSection: React.FC<UserInteractionSectionProps> = ({ onBackT
                             placeholder="Add notes for this file..."
                             value={file.notes}
                             onChange={(e) => updateFileNotes(file.id, e.target.value)}
-                            className="w-full p-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-400 resize-none focus:outline-none focus:border-yellow-400/50 transition-colors duration-200"
+                            className="w-full p-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-400 resize-none focus:outline-none focus:border-green-600/50 transition-colors duration-200"
                             rows={2}
                           />
                         </div>
@@ -199,7 +199,7 @@ const UserInteractionSection: React.FC<UserInteractionSectionProps> = ({ onBackT
           {/* Query Section */}
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
-              <MessageSquare className="text-yellow-400" size={28} />
+              <MessageSquare className="text-green-600" size={28} />
               Ask Questions
             </h3>
             
@@ -208,14 +208,14 @@ const UserInteractionSection: React.FC<UserInteractionSectionProps> = ({ onBackT
                 placeholder="Type your questions or comments here... For example: 'Summarize the key findings from the uploaded research paper' or 'Generate quiz questions based on this document'"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                className="w-full h-40 p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-400 resize-none focus:outline-none focus:border-yellow-400/50 transition-colors duration-200"
+                className="w-full h-40 p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-400 resize-none focus:outline-none focus:border-green-600/50 transition-colors duration-200"
               />
               
               <div className="flex justify-between items-center mt-4">
                 <p className="text-gray-400 text-sm">
                   {query.length}/500 characters
                 </p>
-                <button className="px-6 py-3 bg-yellow-400 text-black font-semibold rounded-lg hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed">
+                <button className="px-6 py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed">
                   Process Query
                 </button>
               </div>
@@ -224,11 +224,11 @@ const UserInteractionSection: React.FC<UserInteractionSectionProps> = ({ onBackT
             {/* Quick Actions */}
             <div className="grid grid-cols-2 gap-4">
               <button className="p-4 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/15 transition-all duration-300 text-left group">
-                <FileText className="text-yellow-400 mb-2 group-hover:scale-110 transition-transform duration-200" size={24} />
+                <FileText className="text-green-600 mb-2 group-hover:scale-110 transition-transform duration-200" size={24} />
                 <p className="text-white font-medium text-sm">Summarize Documents</p>
               </button>
               <button className="p-4 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/15 transition-all duration-300 text-left group">
-                <Plus className="text-yellow-400 mb-2 group-hover:scale-110 transition-transform duration-200" size={24} />
+                <Plus className="text-green-600 mb-2 group-hover:scale-110 transition-transform duration-200" size={24} />
                 <p className="text-white font-medium text-sm">Generate Quiz</p>
               </button>
             </div>
