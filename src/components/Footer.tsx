@@ -22,33 +22,34 @@ const Footer = () => {
               href="#" 
               className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center hover:bg-green-600/20 hover:border-green-600/40 transition-all duration-300 group"
             >
+              <Github size={20} className="text-gray-300 group-hover:text-green-600 transition-colors duration-300" />
             </a>
             <a 
               href="#" 
-              className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center hover:bg-yellow-400/20 hover:border-yellow-400/40 transition-all duration-300 group"
+              className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center hover:bg-green-600/20 hover:border-green-600/40 transition-all duration-300 group"
             >
-              <Linkedin size={20} className="text-gray-300 group-hover:text-yellow-400 transition-colors duration-300" />
+              <Linkedin size={20} className="text-gray-300 group-hover:text-green-600 transition-colors duration-300" />
             </a>
             <a 
               href="#" 
-              className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center hover:bg-yellow-400/20 hover:border-yellow-400/40 transition-all duration-300 group"
-              <Mail size={20} className="text-gray-300 group-hover:text-yellow-400 transition-colors duration-300" />
+              className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center hover:bg-green-600/20 hover:border-green-600/40 transition-all duration-300 group"
+            >
+              <Mail size={20} className="text-gray-300 group-hover:text-green-600 transition-colors duration-300" />
             </a>
           </div>
-            className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center hover:bg-green-600/20 hover:border-green-600/40 transition-all duration-300 group"
+
           {/* Copyright */}
-            <Linkedin size={20} className="text-gray-300 group-hover:text-green-600 transition-colors duration-300" />
-            <p className="text-gray-400 text-sm">
+          <div className="text-center">
+            <p className="text-gray-400 text-sm mb-2">
               © 2025 GrowGrid. All rights reserved.
             </p>
-            className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center hover:bg-green-600/20 hover:border-green-600/40 transition-all duration-300 group"
+            <p className="text-gray-500 text-xs">
               Transforming education through AI innovation
-            <Mail size={20} className="text-gray-300 group-hover:text-green-600 transition-colors duration-300" />
+            </p>
           </div>
         </div>
       </div>
     </footer>
-  )
   );
 };
 
